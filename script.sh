@@ -14,5 +14,6 @@ sudo update-alternatives --set java /usr/local/java/$version/jre/bin/java
 sudo update-alternatives --set javac /usr/local/java/$version/bin/javac
 sudo update-alternatives --set javaws /usr/local/java/$version/bin/javaws
 source /etc/profile
+cd $HOME/Downloads && rm -r tmp
 echo "installation successfull"
 
