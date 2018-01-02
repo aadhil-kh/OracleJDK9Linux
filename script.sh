@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $HOME/Downloads && mkdir tmp && cd tmp
 filename="jdk-9.0.1_linux-x64_bin.tar.gz"
 version="jdk-9.0.1"
